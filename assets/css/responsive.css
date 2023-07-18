@@ -1,0 +1,138 @@
+@media only screen and (max-width: 991px) {
+    div#navbarSupportedContent {
+        background: black;
+        /* color: white; */
+    }
+    li.nav-item {
+        border-bottom: 1px solid #57c5a0;
+    }
+    a.nav-link {
+        color: white;
+    }
+    .navbar-toggler:hover {
+        color: #57c5a0;
+    }
+    .navbar-toggler:hover .navbar-toggler-icon{
+        color: #57c5a0;
+    }
+    .cat-bg-img1{
+        margin-top: 15px;
+    }
+    .cat-bg-img2{
+        margin-top: 15px;
+    }
+    .cat-bg-img3{
+        margin-top: 15px;
+    }
+    .product{
+        margin-top: 20px;
+    }
+    .img-div img {
+        height: 220px;}
+        .text-div {
+            margin-top: 20px;
+        }
+        .gallery-widget {
+            margin-top: 30px;
+        }
+        .date-box {
+            background: var(--main_color);
+            height: 45px;
+            width: 45px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            font-size: 12px;
+            text-transform: uppercase;
+            line-height: inherit;
+            padding: 5px;
+          }
+          .social-ul {
+            margin-left: 0;
+            padding-left: 0;
+          }
+          .social-li.mx-1 {
+            margin-top: 15px;
+            width: 35px;
+            height: 35px;
+            padding: 2px;
+          }
+        li.last-li > a{
+            font-size: 12px;
+        }
+        .last-text.widget-text {
+            text-align: center;
+            font-size: 12px;
+          }
+          .login a {
+            font-size: 12px;
+          }
+          .logo a {
+            font-size: 18px;}
+            .search-field { height:28px;}
+            .slider{
+                height:400px;
+            }
+            .slider img{
+                height:380px
+            }
+        .banner-title {
+          font-size: 25px;
+        }
+        .price {
+            margin-top: 15px;
+          }
+          .paddin-cont{
+            padding-top:1rem;
+          }
+          select#selectbox {
+            background-size: 15px 15px;
+            font-size: 11px !important;
+          }
+          .selectbg.p-4 {
+            padding: 1rem !important;
+          }
+          .padding-2{
+            padding-top: 15px;
+          }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .slider {
+        height: 350px;
+      }
+      .slider img {
+        height: 320px;
+      }
+      .banner-sec {
+        height: 250px;
+      }
+      .text-justify.widget-text {
+        font-size: 14px;
+      }
+      .selectbg.p-4 {
+        padding: 1rem !important;
+      }
+      .banner-title {
+        font-size: 16px;
+      }
+      .banner-text {
+        font-size: 12px;
+      }
+      .nav-box p, ul.icon-ul li{
+        font-size: 15px;
+      }
+      .nav-box span {
+        font-size: 9px;}
+        .logo a {
+            font-size: 12px;
+          }
+          .login a {
+            font-size: 8px;
+          }
+    .search-field {
+        background-size: 12px 12px;
+width: 120px !important;
+    }
+}
